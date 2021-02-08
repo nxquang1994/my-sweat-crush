@@ -1,0 +1,221 @@
+.main-page {
+    background-color: #93e5e5;
+    height: 100vh;
+}
+
+.gift-card {
+    height: 85vh;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.crush-1 {
+    margin-top: 20px;
+    max-height: 50vh;
+}
+
+.author {
+    opacity: 0.7;
+}
+
+.parent-img {
+    position: fixed;
+    top: 25vh;
+    left: -55vh;
+    width: 52vh;
+    height: 52vh;
+}
+
+.crush-2 {
+    max-width: 50vh;
+    border: 5px solid rgb(210, 105, 30);
+}
+
+.first-wish {
+    position: fixed;
+    left: 65vh;
+    width: 115vh;
+    height: 16vh;
+    bottom: -20vh;
+    border-radius: 20px;
+    background-color: #635a88;
+}
+
+.second-wish {
+    position: fixed;
+    top: 41vh;
+    width: 115vh;
+    height: 16vh;
+    right: -115vh;
+    border-radius: 20px;
+    background-color: #635a88;
+}
+
+.third-wish {
+    position: fixed;
+    left: 65vh;
+    width: 115vh;
+    height: 16vh;
+    bottom: -60vh;
+    border-radius: 20px;
+    background-color: #635a88;
+}
+
+.on-top {
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0 0px 20px 20px;
+    width: 115vh;
+    height: 4vh;
+    background-color: #ecc61c;
+}
+
+.wish-text {
+    height: 80%;
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+.present-wish {
+    position: fixed;
+    font-family: sans-serif;
+    color: rgb(231, 65, 181);
+    top: 7vh;
+    left: 10vh;
+}
+
+span.up-down {
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+    display: inline-block;
+}
+
+span.down-up {
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(0px);
+    display: inline-block;
+}
+
+span.up-down.fade-animate {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+span.down-up.fade-animate {
+    opacity: 1;
+    transform: translateY(50px);
+}
+
+.next-normal {
+    position: fixed;
+    bottom: 10vh;
+    left: 75vh;
+}
+
+.symetic-wish {
+    position: fixed;
+    top: 23vh;
+    left: 7vw;
+    width: 90vw;;
+}
+
+.happy-img {
+    position: absolute;
+    top: 5vh;
+    left: 26vw;
+    max-width: 50vw;
+}
+
+.left-wish-area {
+    position: absolute;
+    top: 5vh;
+    left: 0vw;
+}
+
+.right-wish-area {
+    position: absolute;
+    top: 0vh;
+    right: 0vw;
+}
+
+.left-wish-1 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 14vw;
+}
+
+.right-wish-1 {
+    position: absolute;
+    top: 0vh;
+    right: 0vh;
+    width: 14vw;
+}
+
+.left-wish-2 {
+    position: absolute;
+    top: 15vh;
+    left: 4vw;
+    width: 14vw;
+}
+
+.right-wish-2 {
+    position: absolute;
+    top: 15vh;
+    right: 5vw;
+    width: 14vw;
+}
+
+.left-wish-3 {
+    position: absolute;
+    top: 30vh;
+    left: 8vw;
+    width: 16vw;
+}
+
+.right-wish-3 {
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    width: 20vw;
+}
+
+.concluse-happy {
+    position: fixed;
+    bottom: 22vh;
+    left: 27vw;
+    font-size: 500;
+    font-weight: bolder;
+}
+
+h1.concluse-happy {
+    opacity: 0;
+    transition: all 2s ease;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+h1.concluse-happy.display-conclusion {
+    opacity: 1;
+}
+
+.next-ltr {
+    position: fixed;
+    left: -20vw;
+    bottom: 13vh;
+    transition: all 5s ease;
+}
+
+a.next-ltr.execute-move {
+    left: 65vw;
+}
+
+.love-img {
+    position: fixed;
+    top: 15vh;
+    left: -50vw;
+    max-width: 50vw;
+}
