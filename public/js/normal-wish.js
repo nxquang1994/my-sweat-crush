@@ -8,17 +8,17 @@ function animateWish() {
 
 function animateDetailWish() {
     $('.first-wish').animate({
-        top: '16vh'
+        top: '8vh'
     }, 3000, () => {
         $('.second-wish').animate({
-            left: '70vh',
-            top: '38vh' 
+            left: '40vw',
         }, 2500, () => {
             $('.third-wish').animate({
-                top: '60vh',
-                left: '75vh'
-            }, 2000)
-        })
+                top: '66vh',
+            }, 2000, () => {
+                $('a.next-normal').addClass('display-btn');
+            })
+        });
     });
 }
 

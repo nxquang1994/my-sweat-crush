@@ -12,7 +12,8 @@ app.set('view engine', 'handlebars');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req, res) => {
-    res.render('index');
+    let scripts = [{ script: '/js/home.js' }];
+    res.render('index', {scripts: scripts});
 });
 
 app.get('/wish', (req, res) => {

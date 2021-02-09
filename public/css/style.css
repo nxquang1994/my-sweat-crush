@@ -34,32 +34,53 @@
 
 .first-wish {
     position: fixed;
-    left: 65vh;
-    width: 115vh;
-    height: 16vh;
-    bottom: -20vh;
-    border-radius: 20px;
-    background-color: #635a88;
+    left: 35vw;
+    width: 34vw;
+    /* bottom: -20vh; */
+    bottom: -30vh;
+}
+
+.img-wish-1 {
+    position: absolute;
+    max-width: 14vw;
+    right: 0vw;
+    top: 0vw;
+}
+
+.normal-wish-text {
+    position: absolute;
+    top: 3vw;
+    right: 13vw;
+    width: 25vw;
+    color: rgb(83, 52, 11);
+    font-family: sans-serif;
+}
+
+.first-wish-text {
+    right: 11vw;
 }
 
 .second-wish {
     position: fixed;
     top: 41vh;
-    width: 115vh;
-    height: 16vh;
-    right: -115vh;
-    border-radius: 20px;
-    background-color: #635a88;
+    right: -40vw;
+    width: 40vw;
+}
+
+.second-wish-text {
+    right: 13vw;
 }
 
 .third-wish {
     position: fixed;
-    left: 65vh;
-    width: 115vh;
-    height: 16vh;
-    bottom: -60vh;
-    border-radius: 20px;
-    background-color: #635a88;
+    left: 35vw;
+    bottom: -25vh;
+    width: 60vw;
+}
+
+.third-wish-text {
+    right: 14vw;
+    width: 35vw;
 }
 
 .on-top {
@@ -112,7 +133,13 @@ span.down-up.fade-animate {
 .next-normal {
     position: fixed;
     bottom: 10vh;
-    left: 75vh;
+    left: 30vw;
+    opacity: 0;
+    transition: all 3s ease;
+}
+
+a.next-normal.display-btn {
+    opacity: 1;
 }
 
 .symetic-wish {
@@ -216,6 +243,37 @@ a.next-ltr.execute-move {
 .love-img {
     position: fixed;
     top: 15vh;
-    left: -50vw;
-    max-width: 50vw;
+    right: -50vw;
+    max-width: 30vw;
+}
+
+.love-wish-1 {
+    position: fixed;
+    top: 12vh;
+    left: 4vw;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.love-wish-2 {
+    position: fixed;
+    top: 35vh;
+    left: 7vw;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.love-wish-3 {
+    position: fixed;
+    top: 68vh;
+    left: 10vw;
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.page-audio {
+    position: fixed;
+    bottom: 30vh;
 }
