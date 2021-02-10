@@ -59,7 +59,7 @@ $(document).ready(function() {
             $('h1.concluse-happy').addClass('display-conclusion');
             setTimeout(() => {
                 $('a.next-ltr').addClass('execute-move');
-            }, 5000);
+            }, 10000);
         });
     });
 });
