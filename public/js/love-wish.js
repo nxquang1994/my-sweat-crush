@@ -15,7 +15,7 @@ function displayLoveWish() {
 
     promiseLove3 = new Promise((resolve, reject) => {
         $('.love-wish-3').text('');
-        setTimeout(() => animatePresentText(loveText3,'love-wish-3', 'tl-3', 'up-down', resolve), 14000);
+        setTimeout(() => animatePresentText(loveText3,'love-wish-3', 'tl-3', 'up-down', resolve), 16000);
     });
 
     promiseLove1.then((res1) => {
@@ -37,7 +37,7 @@ function displayLoveWish() {
 $(document).ready(function() {
     $('.love-img').animate({
         right: '10vw'
-    }, 6000, () => {
+    }, 15000, () => {
         displayLoveWish();
     });
 });
