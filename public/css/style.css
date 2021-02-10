@@ -35,7 +35,7 @@
 .first-wish {
     position: fixed;
     left: 35vw;
-    width: 37vw;
+    width: 30vw;
     /* bottom: -20vh; */
     bottom: -30vh;
 }
@@ -58,6 +58,7 @@
 
 .first-wish-text {
     right: 14vw;
+    width: 20vw;
 }
 
 .second-wish {
@@ -135,10 +136,19 @@ span.down-up.fade-animate {
     bottom: 10vh;
     left: 30vw;
     opacity: 0;
-    transition: all 3s ease;
+    transition: all 5s ease;
+}
+
+.next-home {
+    opacity: 0;
+    transition: all 5s ease;
 }
 
 a.next-normal.display-btn {
+    opacity: 1;
+}
+
+a.next-home.display-btn {
     opacity: 1;
 }
 
@@ -275,5 +285,5 @@ a.next-ltr.execute-move {
 
 .page-audio {
     position: fixed;
-    bottom: 20vh;
+    bottom: -40vh;
 }

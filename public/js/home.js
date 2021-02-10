@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    // var vid = document.getElementById("birthday-video"); 
-    // vid.play();
+    setTimeout(() => {
+        $('a.next-home').addClass('display-btn');
+    }, 2000);
 });
 

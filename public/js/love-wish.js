@@ -10,12 +10,12 @@ function displayLoveWish() {
 
     promiseLove2 = new Promise((resolve, reject) => {
         $('.love-wish-2').text('');
-        setTimeout(() => animatePresentText(loveText2,'love-wish-2', 'tl-2', 'down-up', resolve), 5000);
+        setTimeout(() => animatePresentText(loveText2,'love-wish-2', 'tl-2', 'down-up', resolve), 8000);
     });
 
     promiseLove3 = new Promise((resolve, reject) => {
         $('.love-wish-3').text('');
-        setTimeout(() => animatePresentText(loveText3,'love-wish-3', 'tl-3', 'up-down', resolve), 10000);
+        setTimeout(() => animatePresentText(loveText3,'love-wish-3', 'tl-3', 'up-down', resolve), 14000);
     });
 
     promiseLove1.then((res1) => {
@@ -37,7 +37,7 @@ function displayLoveWish() {
 $(document).ready(function() {
     $('.love-img').animate({
         right: '10vw'
-    }, 3000, () => {
+    }, 6000, () => {
         displayLoveWish();
     });
 });
