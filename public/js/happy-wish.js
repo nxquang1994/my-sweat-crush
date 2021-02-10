@@ -55,11 +55,11 @@ $(document).ready(function() {
         console.log('Nhưng dù như thế em luôn thâu tóm tâm trí anh !!!!!');
         $('.symetic-wish').animate({
             top: '10vh'
-        }, 2000, () => {
+        }, 5000, () => {
             $('h1.concluse-happy').addClass('display-conclusion');
             setTimeout(() => {
                 $('a.next-ltr').addClass('execute-move');
-            }, 5000);
+            }, 10000);
         });
     });
 });
