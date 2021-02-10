@@ -230,7 +230,7 @@ a.next-home.display-btn {
 
 h1.concluse-happy {
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 5s ease-in-out;
     display: inline-block;
     text-transform: uppercase;
 }
