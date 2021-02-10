@@ -35,7 +35,7 @@
 .first-wish {
     position: fixed;
     left: 35vw;
-    width: 34vw;
+    width: 37vw;
     /* bottom: -20vh; */
     bottom: -30vh;
 }
@@ -57,7 +57,7 @@
 }
 
 .first-wish-text {
-    right: 11vw;
+    right: 14vw;
 }
 
 .second-wish {
@@ -275,5 +275,5 @@ a.next-ltr.execute-move {
 
 .page-audio {
     position: fixed;
-    bottom: 30vh;
+    bottom: 20vh;
 }

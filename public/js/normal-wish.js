@@ -1,7 +1,7 @@
 function animateWish() {
     $('.parent-img').animate({
         left: '3vh'
-    }, 2000, () => {
+    }, 4000, () => {
         animatePresentText();
     });
 }
@@ -9,14 +9,16 @@ function animateWish() {
 function animateDetailWish() {
     $('.first-wish').animate({
         top: '8vh'
-    }, 3000, () => {
+    }, 5000, () => {
         $('.second-wish').animate({
             left: '40vw',
-        }, 2500, () => {
+        }, 6000, () => {
             $('.third-wish').animate({
                 top: '66vh',
-            }, 2000, () => {
-                $('a.next-normal').addClass('display-btn');
+            }, 7000, () => {
+                setTimeout(() => {
+                    $('a.next-normal').addClass('display-btn');
+                }, 4000);
             })
         });
     });

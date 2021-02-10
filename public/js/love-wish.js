@@ -1,7 +1,7 @@
 function displayLoveWish() {
-    loveText1 = 'Mong em se luon yeu';
-    loveText2 = 'Va .....';
-    loveText3 = 'Luon luon duoc yeu';
+    loveText1 = 'Mong em sẽ luôn yêu';
+    loveText2 = 'Và .....';
+    loveText3 = 'Luôn luôn được yêu';
 
     promiseLove1 = new Promise((resolve, reject) => {
         $('.love-wish-1').text('');
